@@ -1,0 +1,8 @@
+def reverse_for_loop(s):
+    s1 = ''
+    for c in s:
+        s1 = c+s1
+    return s1
+input_str = 'ABCDEF'
+if __name__ == "_main":
+    print ('Reverse string using for loop =', reverse_for_loop(input_str))
